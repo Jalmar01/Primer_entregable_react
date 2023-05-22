@@ -1,0 +1,71 @@
+.app {
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    place-content: center;
+    place-items: center; 
+    padding: 0.5em; 
+    overflow: hidden; 
+    z-index: 2;
+    gap: 2em;
+}
+
+.app__title {
+    font-weight: 200;
+    text-align: center;
+    padding: 0 0.7em;
+    font-size: 3rem;
+    letter-spacing: 3px;
+    color: #fff;
+    text-shadow: 5px 10px 6px #222;
+    z-index: 2; 
+}
+
+
+.Phrase {
+    background-image: url(/img/rectangle1.svg);
+    background-size: cover;
+    background-position: center;
+    width: 90%;
+    padding: 6rem 1rem;
+    height: 217px;
+    max-width: 550px;
+    display: grid;
+    place-content: center;
+    color: #313131b2;
+    text-align: center;
+    line-height: 1.5;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.app__btn {
+    width: 60%;
+    height: 60px;
+    border-radius: 10px;
+    color: #ffffffb6;
+    font-size: 1.5rem;
+    font-weight: 500;
+    background-color:transparent;
+    border: 0.2em solid white;
+    transition: transform 100ms ease, filter 100ms ease ;
+}
+
+.app__btn:hover{
+    transform: scale(1.05);
+    filter: brightness(1.1);
+}
+
+.author {
+    position: absolute;
+    background-color:transparent;
+    border: 0.1em solid white;
+    border-radius: 0.5em;
+    bottom: 1em;
+    width: 40%;
+    max-width: 200px;
+    display: flex;
+    justify-content: center; 
+}
