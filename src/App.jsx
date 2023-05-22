@@ -32,6 +32,8 @@ function App() {
           arrBackground={arrBackground} 
         />
         { <AuthorCart phraseRandom={phraseRandom}/>}
+
+        <p className='git'> <span>Mi repositorio:</span> https://github.com/Jalmar01/Primer_entregable_react</p>
     </div>
   )
 }
